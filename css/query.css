@@ -13,6 +13,7 @@ header{
     background-image: url("/img/image-hero.jpg");
     padding: 2vh 5vw;
     height: 208px;
+    margin-bottom: 50px;
 }
 nav{
     display: flex;
@@ -35,6 +36,25 @@ ul li:not(:last-child){
     color: white;
     border: 1px solid white;
     padding: 2vh 3vw;
+}
+.img-wrax{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+    text-align: center;
+}
+.wrap-box{
+    width: auto;
+    border: 1px solid white;
+    padding: 2vh 3vw;
+    background-color: #fff;
+}
+.wrap-box h1{
+    padding: 5px 3vw;
+}
+.fuck{
+    width: 100%;
+    margin-bottom: 10px;
 }
 @media screen and (min-width: 768px) {
     .head-wrap{
