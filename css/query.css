@@ -20,15 +20,35 @@ nav{
     align-items: center;
     margin-bottom: 30px;
 }
-ul{
+header ul{
     display: flex;
+    align-items: center;
     display: none;
+    color: white;
+    font-size: 20px;
 }
 ul li:not(:last-child){
     margin-right: 8px;
 }
 
 .head-wrap{
+    color: white;
     border: 1px solid white;
     padding: 2vh 3vw;
+}
+@media screen and (min-width: 768px) {
+    .head-wrap{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 800px) {
+    header .navbar{
+        display: none;
+    }
+    header ul{
+        display: flex;
+    }
+    .head-wrap{
+        width: 30%;
+    }
 }
